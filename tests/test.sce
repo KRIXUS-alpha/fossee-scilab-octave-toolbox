@@ -1,7 +1,9 @@
 // load the gateway
-current_path = pwd()
-chdir(current_path)
-cd ..
+//current_path = pwd()
+//chdir(current_path)
+//cd ..
+//pwd()
+cd /home/travis/build/KRIXUS-alpha/fossee-scilab-octave-toolbox/
 exec builder.sce
 exec loader.sce
 cd tests
