@@ -1,6 +1,7 @@
 // load the gateway
-pwd()
-cd ../
+current_path = pwd()
+chdir(current_path)
+cd ..
 exec builder.sce
 exec loader.sce
 cd tests
