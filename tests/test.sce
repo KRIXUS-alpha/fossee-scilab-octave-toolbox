@@ -1,8 +1,9 @@
 // load the gateway
-cd ..
+pwd()
+cd ../
 exec builder.sce
 exec loader.sce
-cd test
+cd tests
 
 //exec build.sce
 test_pass=[]
