@@ -13,4 +13,5 @@ before_install:
 script:
 # - octave-cli tests/oct-setup.m
 #  - scilab -nw -f tests/test.sce
+- bash src/make.sh
 - scilab-cli -f tests/test.sce
