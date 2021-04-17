@@ -34,7 +34,8 @@ function main_builder()
 
     // Action
     // =============================================================================
-    help_from_sci("macros","help/en_US");
+    
+    // help_from_sci("macros","help/en_US"); //commented out for running tests
     tbx_builder_macros(toolbox_dir);
     tbx_builder_gateway(toolbox_dir);
     tbx_build_localization(toolbox_dir);
