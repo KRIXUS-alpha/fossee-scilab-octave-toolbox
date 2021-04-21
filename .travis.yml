@@ -27,8 +27,8 @@ before_install:
 script:
 # - octave-cli tests/oct-setup.m
 #  - scilab -nw -f tests/test.sce
-- cd /home/travis/build/KRIXUS-alpha/fossee-scilab-octave-toolbox/
+- cd $TRAVIS_BUILD_DIR/
 - cd src/
 - bash make.sh
-- cd /home/travis/build/KRIXUS-alpha/fossee-scilab-octave-toolbox/
+- cd $TRAVIS_BUILD_DIR/
 - scilab-cli -f tests/test.sce
