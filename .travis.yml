@@ -30,4 +30,5 @@ script:
 - cd /home/travis/build/KRIXUS-alpha/fossee-scilab-octave-toolbox/
 - cd src/
 - bash make.sh
+- cd /home/travis/build/KRIXUS-alpha/fossee-scilab-octave-toolbox/
 - scilab-cli -f tests/test.sce
