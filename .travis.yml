@@ -11,7 +11,9 @@ before_install:
  - wget https://ftpmirror.gnu.org/octave/octave-4.4.1.tar.gz 
  - tar -xzf octave-4.4.1.tar.gz 
  - cd octave-4.4.1
- - ./bootstrap
+ - bash configure
+ - make
+ - make install
  - mkdir .build
  - cd    .build
  - ./../configure --prefix=$HOME/my_octave 
