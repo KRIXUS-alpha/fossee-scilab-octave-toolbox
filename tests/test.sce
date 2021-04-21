@@ -387,4 +387,3 @@ else
 disp(length(test_pass),"Total functions tested:")
 disp("ALL OK")
 end
-exit
